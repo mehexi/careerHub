@@ -1,11 +1,13 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
+import { Outlet } from 'react-router-dom';
 
-const layout = () => {
+const Layout = () => {
     return (
-        <div>
-            
+        <div className='w-9/12 flex flex-col'>
+            <Outlet></Outlet>
         </div>
     );
 };
 
-export default layout;
+export default Layout;
