@@ -8,7 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from './componat/layout/layout.jsx';
-import NavBar from './componat/NavBar/NavBar.jsx';
+
+import HeroSection from './componat/HeroSection/HeroSection.jsx';
+import HomeLayout from './componat/HomeLayout/HomeLayout.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:<NavBar></NavBar>
+        element:<HomeLayout></HomeLayout>
       }
     ]
   },
