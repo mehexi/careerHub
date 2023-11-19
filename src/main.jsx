@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+
 import {
   createBrowserRouter,
   RouterProvider,

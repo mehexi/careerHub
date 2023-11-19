@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../HeroSection/HeroSection';
 import JobCatagory from '../JobCatagory/JobCatagory';
-import FeaturedSection from '../layout/FeaturedSection/FeaturedSection';
+import FeaturedSection from '../FeaturedSection/FeaturedSection';
 
 const HomeLayout = () => {
     return (
