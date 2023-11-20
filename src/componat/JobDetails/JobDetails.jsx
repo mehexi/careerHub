@@ -7,11 +7,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { saveToDb } from "../../database/fakedb";
 
 const JobDetails = () => {
   const JobDetails = useLoaderData();
-  console.log(JobDetails[0]);
+//   console.log(JobDetails[0]);
   const {
+    id,
     job_description,
     job_responsibility,
     educational_requirements,
@@ -80,7 +82,10 @@ const JobDetails = () => {
             </h1>
           </div>
         </div>
-        <button className="bg-gradient-to-tr from-[#7E90FE] to-[#9873FF] w-full py-4 rounded-md font-bold text-white">
+        <button
+          onClick={() => saveToDb(id)}
+          className="bg-gradient-to-tr from-[#7E90FE] to-[#9873FF] w-full py-4 rounded-md font-bold text-white"
+        >
           apply now
         </button>
       </div>

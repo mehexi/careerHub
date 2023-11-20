@@ -36,8 +36,8 @@ const router = createBrowserRouter([
               const index = parseInt(params.details) - 1;
               const filterData = data.filter((_, i) => i === index);
 
-              console.log(params);
-              console.log(filterData);
+              // console.log(params);
+              // console.log(filterData);
 
               return filterData;
             }
