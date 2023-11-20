@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between py-10 absolute w-9/12">
+    <nav className="flex items-center justify-between py-10 absolute w-9/12 z-10">
       <Link><h1 className="font-semibold text-[32px] font-poppins">CareerHub</h1></Link>
       
       <ul className="flex gap-12 ">
@@ -15,7 +15,7 @@ const NavBar = () => {
       <button className="text-2xl px-6 py-3 bg-blue-300 rounded-md font-semibold text-white bg-gradient-to-tr from-[#566cfa] to-[#6f40ef] hover:bg-gradient-to-tl duration-75">
         Start Applying
       </button>
-    </div>
+    </nav>
   );
 };
 

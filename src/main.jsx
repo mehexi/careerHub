@@ -12,6 +12,8 @@ import HeroSection from "./componat/HeroSection/HeroSection.jsx";
 import HomeLayout from "./componat/HomeLayout/HomeLayout.jsx";
 import DetailsLayout from "./componat/detailsLayout/DetailsLayout.jsx";
 import JobDetails from "./componat/JobDetails/JobDetails.jsx";
+import { getFromDb } from "./database/fakedb.js";
+import AppliedJobList from "./componat/applied job list/AppliedJobList.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statics",
-        element: <DetailsLayout></DetailsLayout>,
+        element: <DetailsLayout text={"Job Description"}></DetailsLayout>,
         children: [
           {
             path: "/statics/:details",
@@ -36,11 +38,19 @@ const router = createBrowserRouter([
               const index = parseInt(params.details) - 1;
               const filterData = data.filter((_, i) => i === index);
 
-              // console.log(params);
-              // console.log(filterData);
-
               return filterData;
             }
+          }
+        ]
+      },
+      {
+        path: "/Applied-Jobs",
+        element: <DetailsLayout text={"Applied job"}></DetailsLayout>,
+        children: [
+          {
+            path: "/Applied-Jobs",
+            element: <AppliedJobList/>,
+            loader: () => getFromDb()
           }
         ]
       }

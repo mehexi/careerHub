@@ -2,12 +2,12 @@ import React from 'react';
 import { Outlet} from 'react-router-dom';
 import StaticsHeroSection from '../StaticsHeroSection/StaticsHeroSection';
 
-const DetailsLayout = () => {
+const DetailsLayout = ({text}) => {
     
 
     return (
         <>
-            <StaticsHeroSection></StaticsHeroSection>
+            <StaticsHeroSection text={text}></StaticsHeroSection>
             <Outlet></Outlet>
         
         </>
