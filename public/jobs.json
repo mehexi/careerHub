@@ -1,117 +1,116 @@
 [
-    {
-     "id": 1,
-     "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
-     "job_title": "Technical Database Engineer",
-     "company_name": "Google LLC",
-     "remote_or_onsite": "Remote",
-     "location": "Dhaka, Bangladesh",
-     "job_type": "Full Time",
-     "salary": "100k-150k",
-     "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-     "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-     "educational_requirements": "Bachelor degree to complete any reputational university.",
-     "experiences": "2-3 Years in this field.",
-     "contact_information": {
-       "phone": "01750-00 00 00",
-       "email": "info@gmail.com",
-       "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-     }
-   },
-   {
-       "id": 2,
-       "logo": "https://i.ibb.co/CsNbw9G/Vector.png",
-       "job_title": "Senior Product Designer",
-       "company_name": "Netflix",
-       "remote_or_onsite": "Onsite",
-       "location": "Dhaka, Bangladesh",
-       "job_type": "Full Time",
-       "salary": "100k-150k",
-       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-       "educational_requirements": "Bachelor degree to complete any reputational university.",
-       "experiences": "2-3 Years in this field.",
-       "contact_information": {
-         "phone": "01750-00 00 00",
-         "email": "info@gmail.com",
-         "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-       }
-     },
-     {
-       "id": 3,
-       "logo": "https://i.ibb.co/vz9Pd3C/tesla-9-1.png",
-       "job_title": "Software Engineer",
-       "company_name": "Tesla",
-       "remote_or_onsite": "Onsite",
-       "location": "Dhaka, Bangladesh",
-       "job_type": "Full Time",
-       "salary": "100k-150k",
-       "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-       "educational_requirements": "Bachelor degree to complete any reputational university.",
-       "experiences": "2-3 Years in this field.",
-       "contact_information": {
-         "phone": "01750-00 00 00",
-         "email": "info@gmail.com",
-         "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-       }
-     },
-     {
-       "id": 4,
-       "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
-       "job_title": "Software Engineer",
-       "company_name": "Google LLC",
-       "remote_or_onsite": "Onsite",
-       "location": "Dhaka, Bangladesh",
-       "job_type": "Full Time",
-       "salary": "100k-150k",
-       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-       "educational_requirements": "Bachelor degree to complete any reputational university.",
-       "experiences": "2-3 Years in this field.",
-       "contact_information": {
-         "phone": "01750-00 00 00",
-         "email": "info@gmail.com",
-         "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-       }
-     },
-     {
-       "id": 5,
-       "logo": "https://i.ibb.co/vz9Pd3C/tesla-9-1.png",
-       "job_title": "Technical Database Engineer",
-       "company_name": "Tesla",
-       "remote_or_onsite": "Remote",
-       "location": "Dhaka, Bangladesh",
-       "job_type": "Full Time",
-       "salary": "100k-150k",
-       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-       "educational_requirements": "Bachelor degree to complete any reputational university.",
-       "experiences": "2-3 Years in this field.",
-       "contact_information": {
-         "phone": "01750-00 00 00",
-         "email": "info@gmail.com",
-         "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-       }
-     },
-     {
-       "id": 6,
-       "logo": "https://i.ibb.co/CsNbw9G/Vector.png",
-       "job_title": "Senior Product Designer",
-       "company_name": "Netflix",
-       "remote_or_onsite": "Remote",
-       "location": "Dhaka, Bangladesh",
-       "job_type": "Full Time",
-       "salary": "100k-150k",
-       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-       "educational_requirements": "Bachelor degree to complete any reputational university.",
-       "experiences": "2-3 Years in this field.",
-       "contact_information": {
-         "phone": "01750-00 00 00",
-         "email": "info@gmail.com",
-         "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-       }
-     }
- 
- ]
+  {
+    "id": 1,
+    "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Technical Database Engineer at Google, you will manage and optimize large-scale databases. Design and implement database solutions, ensuring data integrity, and optimizing query performance.",
+    "job_responsibility": "Collaborating with cross-functional teams: Work closely with software developers, operations, and data scientists to design and implement efficient and scalable database solutions.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "2-3 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "https://i.ibb.co/CsNbw9G/Vector.png",
+    "job_title": "Senior Product Designer",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Senior Product Designer at Netflix, create delightful and innovative user interfaces for our streaming platform. Involved in all stages of the design process, from concept to execution.",
+    "job_responsibility": "Leading design initiatives: Take a leadership role in driving design projects, collaborating with cross-functional teams, and mentoring junior designers.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "4-5 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "https://i.ibb.co/vz9Pd3C/tesla-9-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Tesla",
+    "remote_or_onsite": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Software Engineer at Tesla, work on cutting-edge technologies to develop and maintain software applications. Collaborate with cross-functional teams to ensure software aligns with business and technical requirements.",
+    "job_responsibility": "Coding and testing: Write clean and efficient code, perform unit testing, and collaborate with quality assurance teams to ensure the reliability of software applications.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "2-3 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 4,
+    "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Software Engineer at Google, contribute to the development and maintenance of software applications. Design and implement scalable solutions, collaborating with cross-functional teams.",
+    "job_responsibility": "Code review and collaboration: Participate in code reviews, provide constructive feedback, and collaborate with team members to ensure code quality and adherence to best practices.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "2-3 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 5,
+    "logo": "https://i.ibb.co/vz9Pd3C/tesla-9-1.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Tesla",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Technical Database Engineer at Tesla, you will manage and optimize databases, ensuring efficient data storage and retrieval. Design and implement database solutions that align with business requirements.",
+    "job_responsibility": "Performance optimization: Optimize database performance, conduct performance tuning, and troubleshoot database-related issues. Collaborate with other teams to meet performance goals.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "2-3 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 6,
+    "logo": "https://i.ibb.co/CsNbw9G/Vector.png",
+    "job_title": "Senior Product Designer",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "As a Senior Product Designer at Netflix, you will lead the design of user interfaces for our streaming platform. Bring innovative ideas to life and mentor junior designers to achieve a cohesive and visually appealing user experience.",
+    "job_responsibility": "User-centric design: Conduct user research, create design prototypes, and lead design sprints to create user interfaces that resonate with our audience. Collaborate with cross-functional teams to align design with business goals.",
+    "educational_requirements": "Bachelor degree from a reputable university.",
+    "experiences": "5+ Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  }
+]

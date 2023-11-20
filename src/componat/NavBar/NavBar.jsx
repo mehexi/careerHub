@@ -1,10 +1,12 @@
 import React from "react";
 import ActiveLink from "../activeLink/ActiveLink";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="flex items-center justify-between py-10 absolute w-9/12">
-      <h1 className="font-semibold text-[32px] font-poppins">CareerHub</h1>
+      <Link><h1 className="font-semibold text-[32px] font-poppins">CareerHub</h1></Link>
+      
       <ul className="flex gap-12 ">
         <ActiveLink to={'/statics'}>statics</ActiveLink>
         <ActiveLink to={'/Applied-Jobs'}>Applied Jobs</ActiveLink>

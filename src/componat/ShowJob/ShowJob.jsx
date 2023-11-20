@@ -34,7 +34,7 @@ const ShowJob = ({ job, toggleJobs }) => {
             {job_type}
           </span>
         </div>
-        <div className="flex gap-3 text-gray-500 text-xl text-base">
+        <div className="flex gap-3 text-gray-500 text-base">
           <span>
             <FontAwesomeIcon icon={faLocation} /> {location}
           </span>
@@ -42,7 +42,7 @@ const ShowJob = ({ job, toggleJobs }) => {
             <FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}
           </span>
         </div>
-        <Link to={`/Details/${id}`}>
+        <Link to={`/statics/${id}`}>
           <button className="px-6 py-3 w-fit bg-gradient-to-tr from-[#566cfa] to-[#6f40ef] text-md font-semibold font-poppins text-white rounded ">
             view details
           </button>

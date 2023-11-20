@@ -20,7 +20,7 @@ const FeaturedSection = () => {
     }
 
     return (
-        <section className='mt-[130px] flex flex-col gap-8 mb-[130px]'>
+        <section className='mt-[130px] flex flex-col gap-8 mb-[130px] w-9/12'>
             <div className='text-center flex flex-col gap-6'>
                 <h1 className='font-poppins text-5xl font-semibold'>
                 Featured Jobs
