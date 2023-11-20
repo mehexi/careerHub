@@ -1,9 +1,11 @@
 import React from "react";
 import { faDollarSign, faLocation } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const ShowJob = ({ job, toggleJobs }) => {
   const {
+    id,
     logo,
     job_title,
     company_name,
@@ -33,13 +35,18 @@ const ShowJob = ({ job, toggleJobs }) => {
           </span>
         </div>
         <div className="flex gap-3 text-gray-500 text-xl text-base">
-          <span><FontAwesomeIcon icon={faLocation}/> {location}</span>
           <span>
-          <FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}
+            <FontAwesomeIcon icon={faLocation} /> {location}
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}
           </span>
         </div>
-
-        <button className="px-6 py-3 w-fit bg-gradient-to-tr from-[#566cfa] to-[#6f40ef] text-md font-semibold font-poppins text-white rounded ">view details</button>
+        <Link to={`/Details/${id}`}>
+          <button className="px-6 py-3 w-fit bg-gradient-to-tr from-[#566cfa] to-[#6f40ef] text-md font-semibold font-poppins text-white rounded ">
+            view details
+          </button>
+        </Link>
       </div>
     </div>
   );

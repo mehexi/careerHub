@@ -20,7 +20,7 @@ const FeaturedSection = () => {
     }
 
     return (
-        <section className='mt-[130px] flex flex-col gap-8'>
+        <section className='mt-[130px] flex flex-col gap-8 mb-[130px]'>
             <div className='text-center flex flex-col gap-6'>
                 <h1 className='font-poppins text-5xl font-semibold'>
                 Featured Jobs
@@ -34,7 +34,7 @@ const FeaturedSection = () => {
                 displyedJobs.map(job=><ShowJob key={job.id} job={job}></ShowJob>)
                 }
             </div>
-            <button className='px-6 py-3 rounded-full border w-fit text-blue-500 border-blue-500 mx-auto' onClick={toggleJobs}><FontAwesomeIcon className={showJobs? 'rotate-0 duration-200': 'rotate-180 duration-200'} icon={faArrowUp}/> {showJobs? 'Show less':'Show all'}</button>
+            <button className='px-6 py-3 rounded-full border w-fit text-blue-500 border-blue-500 mx-auto' onClick={toggleJobs}><FontAwesomeIcon className={showJobs? 'rotate-0 duration-200': 'rotate-180 duration-200'} icon={faArrowUp}/> {showJobs? 'Show less Job':'Show all Job'}</button>
         </section>
     );
 };
